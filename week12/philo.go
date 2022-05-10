@@ -1,4 +1,4 @@
-package main
+package week12
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ type Philosopher struct {
 
 type eatingTicket int
 
-func main() {
+func DiningPhilo() {
 	const PHILO_NUM = 5
 	const CONCURRENT_EATING = 2
 
@@ -84,3 +84,4 @@ func (p *Philosopher) eat(wg *sync.WaitGroup, eatingPermission chan eatingTicket
 		}
 	}
 }
+>>>>>>> feature/week1-5
